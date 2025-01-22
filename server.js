@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Configure SendGrid avec la clé en dur
-sgMail.setApiKey('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'); 
+sgMail.setApiKey('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'); 
 
 // Endpoint pour envoyer un email
 app.post('/api/send-email', (req, res) => {
